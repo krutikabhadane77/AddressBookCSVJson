@@ -1,0 +1,2 @@
+personDetails{firstName='kruti', lastName='bhadane', address='deopur', city='dhule', state='maha', zip='75393', email='k@gmail.com', phoneNumber='758439849'}
+personDetails{firstName='krutika', lastName='patil', address='gtp', city='dhule', state='maha', zip='758439', email='kp@gmail.com', phoneNumber='758943032'}
