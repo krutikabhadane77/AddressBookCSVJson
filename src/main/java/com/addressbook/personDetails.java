@@ -1,15 +1,25 @@
 package com.addressbook;
 
+import com.opencsv.bean.CsvBindByName;
+
 import java.util.Comparator;
 
 public class personDetails {
+    @CsvBindByName(column = "firstName")
     private String firstName;
+    @CsvBindByName(column = "lastName")
     private String lastName;
+    @CsvBindByName(column = "address")
     private String address;
+    @CsvBindByName(column = "city")
     private String city;
+    @CsvBindByName(column = "state")
     private String state;
+    @CsvBindByName(column = "zip")
     private String zip;
+    @CsvBindByName(column = "email")
     private String email;
+    @CsvBindByName(column = "phoneNumber")
     private String phoneNumber ;
 
     public personDetails(String firstName, String lastName, String address, String city, String state, String zip,String email, String phoneNumber) {
